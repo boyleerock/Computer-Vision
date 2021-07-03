@@ -1,6 +1,6 @@
 # Computer-Vision
 
-In the image_filter folder:
+In the _image_filter_ folder:
 ***processing_tool.py*** inculdes:
 1. **load(img_path)** -> load an image from a file path
 2. **print_stats(image)** -> Prints the height, width and number of channels in an image.
