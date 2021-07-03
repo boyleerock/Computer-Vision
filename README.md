@@ -8,9 +8,9 @@
                                         
                                         x_n = factor * (x_p - 0.5) + 0.5
                                         
-                                        where x_n is the new value and x_p is the original value.
-                                        Assumes pixel values between 0.0 and 1.0 
-                                        If you are using values 0-255, change 0.5 to 128.
+    where x_n is the new value and x_p is the original value.
+    Assumes pixel values between 0.0 and 1.0 
+    If you are using values 0-255, change 0.5 to 128.
                                         
 5. **resize(input_image, output_rows, output_cols)** -> Resize an image using the nearest neighbor method.
 6. **greyscale(input_image)** -> Convert a RGB image to greyscale. 
