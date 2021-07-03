@@ -1,8 +1,8 @@
 # Computer-Vision
 
-*** processing_tool.py *** inculdes:
-1. ** load(img_path) **-> load an image from a file path
-2. ** print_stats(image) ** -> Prints the height, width and number of channels in an image.
+***processing_tool.py*** inculdes:
+1. **load(img_path)** -> load an image from a file path
+2. **print_stats(image)** -> Prints the height, width and number of channels in an image.
 3. ** crop(image, start_row, start_col, num_rows, num_cols) ** -> Crop an image based on the specified bounds. Use array slicing.
 4. ** change_contrast(image, factor) **-> Change the value of every pixel by following
 5. ** resize(input_image, output_rows, output_cols) ** -> Resize an image using the nearest neighbor method.
