@@ -6,7 +6,7 @@
 3. **crop(image, start_row, start_col, num_rows, num_cols)** -> Crop an image based on the specified bounds. Use array slicing.
 4. **change_contrast(image, factor)**-> Change the value of every pixel by following
                                         
-                                        **x_n = factor * (x_p - 0.5) + 0.5**
+                                        x_n = factor * (x_p - 0.5) + 0.5
                                         
                                         where x_n is the new value and x_p is the original value.
                                         Assumes pixel values between 0.0 and 1.0 
