@@ -16,7 +16,6 @@ def conv2D(image, kernel):
         out: numpy array of shape (Hi, Wi).
     """
     out = None
-    ### YOUR CODE HERE
     padding = 1
     imagePadded = np.zeros((image.shape[0] + padding*2, image.shape[1] + padding*2))
     imagePadded[int(padding):int(-1 * padding), int(padding):int(-1 * padding)] = image
@@ -92,7 +91,7 @@ def conv(image, kernel):
         out: numpy array of shape (Hi, Wi, 3) or (Hi, Wi)
     """
     out = None
-    ### YOUR CODE HERE
+    
     if len(image.shape) == 2:			 # grayscale image is 2D
     	out = conv2D(image, kernel)
     elif len(image.shape) == 3:			 # RGB image is 3D
@@ -135,7 +134,7 @@ def corr(image, kernel):
         out: numpy array of shape (Hi, Wi, 3) or (Hi, Wi)
     """
     out = None
-    ### YOUR CODE HERE
+    
     filpped_kernel = np.flip(kernel,1)
     # print(filpped_kernel)
 
